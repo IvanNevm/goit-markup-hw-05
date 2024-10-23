@@ -485,7 +485,10 @@ margin-bottom: 32px;
 .form-div {
     margin-left: 80px;
 }
-
+.footer-form button {
+    padding: 8px 24px;
+        margin: 0;
+}
 .input-footer {
     border: 1px solid #fff;
         border-radius: 4px;
@@ -511,7 +514,6 @@ margin-bottom: 32px;
 }
 .button-footer {
     border-radius: 4px;
-        padding: 8px 64px 8px 24px;
         height: 40px;
         background-color:  #4d5ae5;
         text-align: center;
@@ -534,7 +536,6 @@ margin-bottom: 32px;
 .svg-button-footer {
     margin-left: 16px;
     fill: #FFFFFF;
-    
 }
 
 .footer-form {
