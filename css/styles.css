@@ -492,12 +492,13 @@ margin-bottom: 32px;
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background-color: #2e2f42;
         font-weight: 400;
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: transparent;
+        padding-left: 16px;
 }
 
 .subscribe {
@@ -511,7 +512,6 @@ margin-bottom: 32px;
 .button-footer {
     border-radius: 4px;
         padding: 8px 64px 24px 8px;
-        width: 165px;
         height: 40px;
         background-color:  #4d5ae5;
         text-align: center;
@@ -520,8 +520,20 @@ margin-bottom: 32px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-}
+        min-width: 165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+       
+        
 
+}
+.svg-button-footer {
+    margin-left: 16px;
+   
+}
 
 .footer-form {
     display: flex;
